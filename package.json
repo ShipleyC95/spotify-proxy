@@ -1,0 +1,28 @@
+{
+  "name": "spotify-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShipleyC95/spotify-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShipleyC95/spotify-proxy/issues"
+  },
+  "homepage": "https://github.com/ShipleyC95/spotify-proxy#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.10",
+    "query-string": "^7.1.1",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
